@@ -1,8 +1,10 @@
 <template>
-  wildcard
-  <div>
-    {{ new Date().toLocaleString() }}
-  </div>
+  <main>
+    <div>
+      <strong>wildcard</strong><br />
+      {{ new Date().toLocaleString() }}
+    </div>
+  </main>
 </template>
 
 <script lang="ts">
