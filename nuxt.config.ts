@@ -2,8 +2,8 @@ import { resolve } from 'pathe'
 import { NuxtPage } from '@nuxt/schema/dist/index'
 
 import { defineNuxtConfig } from 'nuxt3'
-import homepageVue from './pages/homepage.vue'
-import wildcardVue from './pages/wildcard.vue'
+import homepageVue from '~/pages/homepage.vue'
+import wildcardVue from '~/pages/wildcard.vue'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -15,7 +15,7 @@ export default defineNuxtConfig({
       pages.push({
         name: 'homepage',
         path: '',
-        file: homepageVue,
+        component: homepageVue,
       })
       pages.push({
         name: 'wildcard',
