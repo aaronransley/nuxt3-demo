@@ -1,0 +1,1 @@
+## nothing here, just so Nuxt can scan something for it's route detection bits
