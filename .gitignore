@@ -1,6 +1,11 @@
+dist
 node_modules
-*.log
-.nuxt
+
 nuxt.d.ts
+
+.netlify
+.nuxt
 .output
 .env
+
+*.log
